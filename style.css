@@ -1,0 +1,97 @@
+*{
+    background:rgb(223, 226, 229);
+    font-family:'Inter';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+    overflow-y: hidden;
+
+}
+
+.Logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10px;
+}
+
+main{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 80px;
+
+}
+.text-area {
+    height: 200px;
+    border: none;
+    color: #141517cc;
+    margin-top: 10px;
+    padding: 2px;
+    text-transform: lowercase;
+}
+
+::placeholder { color: rgb(159, 152, 161);}
+  .text-area:focus {
+      outline: none;
+    }
+
+.mensaje{
+    background: #a6c2f1;
+    background-image: url("imagenes.html/Cifrado.png");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 10px;
+    color: rgb(45, 2, 42);
+    margin-left: 70px;
+    margin-top: 70px;
+    padding-left: 70px;
+    position: fixed;
+}
+
+.mensaje:focus {
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+
+}
+
+.btn-desencriptar {
+    background-color: #6ab2f2;
+    border: 1px solid #1e0d8e;
+    border-radius: 24px;
+    color: #1b0725;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+} 
+
+.btn-encriptar {
+    background-color: #b3def5;
+    border: 1px solid #1e0d8e;
+    border-radius: 24px;
+    color: #1b0725;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.copiar {
+    border: 1px solid #1b59bd;
+    border-radius: 30px;
+    color: #1e0d8e;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 100px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;
+}
+
+.informacion {
+    color: #39a5df;
+    font size:  32px;
+}
+
